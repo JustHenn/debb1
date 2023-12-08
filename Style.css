@@ -1,0 +1,124 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #748197;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+#debate-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#video-container,
+#audio-container {
+    width: 45%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+iframe, audio {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+#debate-controls {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#debate-controls div {
+    flex: 0 1 calc(33.333% - 10px);
+    margin: 0 10px;
+}
+
+#voting,
+#chat,
+#objection-system {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #4285f4;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #3c73a8;
+}
+
+#chat-messages {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+#message-input {
+    width: 70%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#send-message {
+    width: 28%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4285f4;
+    color: white;
+}
+
+#send-message:hover {
+    background-color: #3c73a8;
+}
+
+#objection-history {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+#debater-information {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #4285f4;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Add any additional styles as needed */
